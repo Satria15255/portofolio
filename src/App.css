@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+}
+
+.swiper-container {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
