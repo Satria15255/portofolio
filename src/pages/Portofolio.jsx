@@ -1,13 +1,14 @@
 import React from 'react'
 import landingPage from './../assets/indotma.png'
 import miniEcommerce from './../assets/e-comm.png'
+import portfolio from '../assets/portfolio.png'
 import 'swiper/css/navigation'
 import 'swiper/css'
 
 const projects = [
     { id: 1, title: "Company Profile", image: landingPage },
     { id: 2, title: "Mini E-Commerce", image: miniEcommerce },
-    { id: 4, title: "Portfolio Website", image: miniEcommerce },
+    { id: 4, title: "Portfolio Website", image: portfolio },
 ]
 
 const Portofolio = () => {

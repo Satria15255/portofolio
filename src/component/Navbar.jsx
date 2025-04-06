@@ -20,7 +20,7 @@ const Navbar = () => {
     return (
         <nav className={`fixed top-0 z-50 w-full transition-all duration-300 ${scrolled ? "bg-gray-800 shadow-lg" : "bg-transparant"}`}>
             <div className='flex w-full justify-between items-center text-white px-8 py-6'>
-                <h1 className='text-2xl font-bold '>JerdnStore.<span className='text-red-500'>Co</span></h1>
+                <h1 className='text-2xl font-bold '>JerdnCode.<span className='text-red-500'>Co</span></h1>
                 <Router>
                     <ul className='flex justify-between text-xl font-bold gap-10'>
                         <li
