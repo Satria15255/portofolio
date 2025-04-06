@@ -12,7 +12,7 @@ const projects = [
 
 const Portofolio = () => {
     return (
-        <div className="h-screen w-full py-4 mb-8 flex flex-col items-center justify-center">
+        <div className="h-screen w-full py-4 flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold py-8">My <span className="text-red-500">Project</span></h1>
             <div className='grid gris-cols-1 md:grid-cols-3 gap-4'>
                 {projects.map((project) => (

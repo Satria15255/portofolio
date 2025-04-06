@@ -16,7 +16,7 @@ const skil = [
 ]
 const Skills = () => {
     return (
-        <div className='h-screen w-full mb-8'>
+        <div className='h-screen w-full'>
             <h1 className='text-center text-4xl font-bold py-8'>Expe<span className='text-red-500'>rience</span></h1>
             <div className='grid gris-cols-1 md:grid-cols-3 place-items-center text-center overflow-hidden pb-4'>
                 {skil.map((skill) => (
