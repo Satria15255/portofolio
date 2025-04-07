@@ -2,11 +2,12 @@ import React from 'react'
 import { FaSquareUpwork } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Footer from '../component/Footer';
 
 const Contact = () => {
     return (
         <div>
-            <h1 className='text-4xl text-center font-bold py-8'>Con<span className='text-red-500'>tact</span></h1>
+            <h1 className='text-4xl text-center mt-15 font-bold py-8'>Con<span className='text-red-500'>tact</span></h1>
             <div className='flex h-screen p-4'>
                 <div className='w-full h-3/5 bg-gray-100 shadow-lg rounded-lg p-8'>
                     <h2 className='text-2xl font-semibold mb-4'>Get in Touch</h2>
@@ -28,6 +29,7 @@ const Contact = () => {
                     <button type="submit" className='bg-gray-800 text-white w-full py-2 mt-1 px-4 rounded-md'>Send</button>
                 </form>
             </div>
+            <Footer />
         </div>
     )
 }

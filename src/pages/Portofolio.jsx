@@ -4,6 +4,7 @@ import miniEcommerce from './../assets/e-comm.png'
 import portfolio from '../assets/portfolio.png'
 import 'swiper/css/navigation'
 import 'swiper/css'
+import Footer from '../component/Footer'
 
 const projects = [
     { id: 1, title: "Company Profile", image: landingPage },
@@ -13,6 +14,7 @@ const projects = [
 
 const Portofolio = () => {
     return (
+        <div>
         <div className="h-screen w-full py-4 flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold py-8">My <span className="text-red-500">Project</span></h1>
             <div className='grid gris-cols-1 md:grid-cols-3 gap-4'>
@@ -29,6 +31,8 @@ const Portofolio = () => {
                     </div>
                 ))}
             </div>
+            </div>
+            <Footer />
         </div>
     )
 }

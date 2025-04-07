@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className=' relative z-0'>
             <img src={Background} className='h-screen bg-cover bg-center' />
-            <div className='absolute flex flex-col items-center justify-center inset-0 bg-black/50'>
+            <div className='absolute flex flex-col items-center justify-center mt-8 inset-0 bg-black/50'>
                 <p className='text-6xl text-white font-bold '>"Hello, I'm Satria Zafarani"</p>
                 <p className='text-md text-white font-bold text-center py-3 w-3/4 max-w-2xl'>"I am a Frontend Developer who is skilled in building modern,
                     responsive and interactive web interfaces using HTML, CSS and JavaScript."</p>
